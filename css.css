@@ -1,0 +1,67 @@
+*{
+	font-family: helvetica,arial,sans-serif;
+}
+
+body{
+	background:white;
+}
+
+.bluestyle{
+	color:blue;
+	font-size:18px;
+	font-weight:bolder;
+}
+
+.goldstyle{
+	color:gold;
+	font-weight:bold;
+}
+
+.redstyle {
+	color:red;
+	font-style:oblique;
+	font-size:24px;
+}
+
+h1{
+	font-size:325%;
+}
+
+TABLE {
+    width: 300px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+   TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 2px solid black; /* Параметры рамки */
+   }
+   TH {
+    background: #b0e0e6; /* Цвет фона */
+   }
+   .rightpic {
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+   }
+   .leftpic {
+    float: left; /* Выравнивание по правому левому */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+   }
+   .line1 {
+	border: thick double;
+    background-color: red; /* Цвет линии */
+    color: green; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+   .line2{
+	border: none;
+	background-color:white;
+	color:white;
+	height:4px;
+   }
+   
+   .line3{
+	border:none;
+	background-color:black;
+	color:black;
+	height:4px;
+   }
